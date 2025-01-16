@@ -6,6 +6,7 @@ body {
   color: #333;
 }
 
+/* Header and Footer */
 header, footer {
   background-color: #ff0080;
   color: #fff;
@@ -20,10 +21,12 @@ header, footer {
   align-items: center;
 }
 
+/* Headings */
 h1 {
   margin: 0;
 }
 
+/* Navigation */
 nav ul {
   list-style: none;
   padding: 0;
@@ -98,10 +101,12 @@ nav ul li a:hover {
   font-size: 1rem;
 }
 
+/* Buttons inside popup */
 #add-marker {
   background-color: #28a745;
   color: #fff;
   margin-right: 1rem;
+  transition: background-color 0.3s;
 }
 
 #add-marker:hover {
@@ -111,13 +116,14 @@ nav ul li a:hover {
 #cancel {
   background-color: #dc3545;
   color: #fff;
+  transition: background-color 0.3s;
 }
 
 #cancel:hover {
   background-color: #c82333;
 }
 
-/* Footer Styles */
+/* Footer */
 .footer-container ul {
   list-style: none;
   padding: 0;
@@ -138,4 +144,9 @@ nav ul li a:hover {
 
 .footer-container ul li a:hover {
   color: #ffdd57;
+}
+
+/* Map Attribution */
+.ol-attribution {
+  display: none !important;
 }
